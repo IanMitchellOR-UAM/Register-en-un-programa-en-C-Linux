@@ -21,12 +21,12 @@ int main(int argc, char* argv[]){
     clock_t t = clock();
     printf("Inicio\n");
  
-    register int n=0; // ESTE ES EL REGISTER
+    register int n=0; // ---> ESTE ES EL "REGISTER"
     for(n=0; n<max; n++);
  
     printf("Fin\n");
     t = clock() - t;
-    double tiempo = ((double)t)/CLOCKS_PER_SEC; // calculate el tiempo transcurrido
+    double tiempo = ((double)t)/CLOCKS_PER_SEC; // Calcula el tiempo transcurrido
     printf("tiempo transcurrido %f segundos\n", tiempo);
     return 0;
 }
