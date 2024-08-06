@@ -1,6 +1,6 @@
 # Tarea: Register
 
-Se puede ver el archivo `register.c` en este [enlace]([https://github.com/IanMitchellOR-UAM/Register-en-un-programa-en-C-Linux/blob/main/register.c]).
+Se puede ver el archivo `register.c` en este [enlace](https://github.com/IanMitchellOR-UAM/Register-en-un-programa-en-C-Linux/blob/main/register.c).
 
 ## Descripción
 Este programa en C ejecuta un ciclo `for` con un número máximo de iteraciones, calculando el tiempo de ejecución del ciclo. El número máximo de iteraciones se pasa como parámetro en la línea de comando.
