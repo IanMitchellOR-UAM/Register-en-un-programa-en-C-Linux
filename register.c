@@ -21,7 +21,7 @@ int main(int argc, char* argv[]){
     clock_t t = clock();
     printf("Inicio\n");
  
-    register int n=0;
+    register int n=0; // ESTE ES EL REGISTER
     for(n=0; n<max; n++);
  
     printf("Fin\n");
